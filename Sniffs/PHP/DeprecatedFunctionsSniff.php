@@ -137,78 +137,78 @@ class PHPCompatibility_Sniffs_PHP_DeprecatedFunctionsSniff extends PHPCompatibil
                                             '7.0' => true,
                                             'alternative' => 'mcrypt_generic_deinit'
                                         ),
-                                        'mysql_db_query' => array(
-                                            '5.3' => false,
-                                            '5.4' => false,
-                                            '5.5' => false,
-                                            '5.6' => false,
-                                            '7.0' => true,
-                                            'alternative' => 'mysqli_select_db and mysqli_query'
-                                        ),
-                                        'mysql_escape_string' => array(
-                                            '5.3' => false,
-                                            '5.4' => false,
-                                            '5.5' => false,
-                                            '5.6' => false,
-                                            '7.0' => true,
-                                            'alternative' => 'mysqli_real_escape_string'
-                                        ),
-                                        'mysql_list_dbs' => array(
-                                            '5.4' => false,
-                                            '5.5' => false,
-                                            '5.6' => false,
-                                            '7.0' => true,
-                                            'alternative' => null
-                                        ),
-                                        'mysqli_bind_param' => array(
-                                            '5.3' => false,
-                                            '5.4' => true,
-                                            '5.5' => true,
-                                            '5.6' => true,
-                                            'alternative' => 'mysqli_stmt_bind_param'
-                                        ),
-                                        'mysqli_bind_result' => array(
-                                            '5.3' => false,
-                                            '5.4' => true,
-                                            '5.5' => true,
-                                            '5.6' => true,
-                                            'alternative' => 'mysqli_stmt_bind_result'
-                                        ),
-                                        'mysqli_client_encoding' => array(
-                                            '5.3' => false,
-                                            '5.4' => true,
-                                            '5.5' => true,
-                                            '5.6' => true,
-                                            'alternative' => 'mysqli_character_set_name'
-                                        ),
-                                        'mysqli_fetch' => array(
-                                            '5.3' => false,
-                                            '5.4' => true,
-                                            '5.5' => true,
-                                            '5.6' => true,
-                                            'alternative' => 'mysqli_stmt_fetch'
-                                        ),
-                                        'mysqli_param_count' => array(
-                                            '5.3' => false,
-                                            '5.4' => true,
-                                            '5.5' => true,
-                                            '5.6' => true,
-                                            'alternative' => 'mysqli_stmt_param_count'
-                                        ),
-                                        'mysqli_get_metadata' => array(
-                                            '5.3' => false,
-                                            '5.4' => true,
-                                            '5.5' => true,
-                                            '5.6' => true,
-                                            'alternative' => 'mysqli_stmt_result_metadata'
-                                        ),
-                                        'mysqli_send_long_data' => array(
-                                            '5.3' => false,
-                                            '5.4' => true,
-                                            '5.5' => true,
-                                            '5.6' => true,
-                                            'alternative' => 'mysqli_stmt_send_long_data'
-                                        ),
+//                                        'mysql_db_query' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => false,
+//                                            '5.5' => false,
+//                                            '5.6' => false,
+//                                            '7.0' => true,
+//                                            'alternative' => 'mysqli_select_db and mysqli_query'
+//                                        ),
+//                                        'mysql_escape_string' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => false,
+//                                            '5.5' => false,
+//                                            '5.6' => false,
+//                                            '7.0' => true,
+//                                            'alternative' => 'mysqli_real_escape_string'
+//                                        ),
+//                                        'mysql_list_dbs' => array(
+//                                            '5.4' => false,
+//                                            '5.5' => false,
+//                                            '5.6' => false,
+//                                            '7.0' => true,
+//                                            'alternative' => null
+//                                        ),
+//                                        'mysqli_bind_param' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => true,
+//                                            '5.5' => true,
+//                                            '5.6' => true,
+//                                            'alternative' => 'mysqli_stmt_bind_param'
+//                                        ),
+//                                        'mysqli_bind_result' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => true,
+//                                            '5.5' => true,
+//                                            '5.6' => true,
+//                                            'alternative' => 'mysqli_stmt_bind_result'
+//                                        ),
+//                                        'mysqli_client_encoding' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => true,
+//                                            '5.5' => true,
+//                                            '5.6' => true,
+//                                            'alternative' => 'mysqli_character_set_name'
+//                                        ),
+//                                        'mysqli_fetch' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => true,
+//                                            '5.5' => true,
+//                                            '5.6' => true,
+//                                            'alternative' => 'mysqli_stmt_fetch'
+//                                        ),
+//                                        'mysqli_param_count' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => true,
+//                                            '5.5' => true,
+//                                            '5.6' => true,
+//                                            'alternative' => 'mysqli_stmt_param_count'
+//                                        ),
+//                                        'mysqli_get_metadata' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => true,
+//                                            '5.5' => true,
+//                                            '5.6' => true,
+//                                            'alternative' => 'mysqli_stmt_result_metadata'
+//                                        ),
+//                                        'mysqli_send_long_data' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => true,
+//                                            '5.5' => true,
+//                                            '5.6' => true,
+//                                            'alternative' => 'mysqli_stmt_send_long_data'
+//                                        ),
                                         'magic_quotes_runtime' => array(
                                             '5.3' => false,
                                             '5.4' => false,
