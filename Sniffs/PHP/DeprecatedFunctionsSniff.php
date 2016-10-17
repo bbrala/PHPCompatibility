@@ -61,38 +61,38 @@ class PHPCompatibility_Sniffs_PHP_DeprecatedFunctionsSniff extends PHPCompatibil
                                             '5.6' => false,
                                             'alternative' => null
                                         ),
-                                        'ereg' => array(
-                                            '5.3' => false,
-                                            '5.4' => false,
-                                            '5.5' => false,
-                                            '5.6' => false,
-                                            '7.0' => true,
-                                            'alternative' => 'preg_match'
-                                        ),
-                                        'ereg_replace' => array(
-                                            '5.3' => false,
-                                            '5.4' => false,
-                                            '5.5' => false,
-                                            '5.6' => false,
-                                            '7.0' => true,
-                                            'alternative' => 'preg_replace'
-                                        ),
-                                        'eregi' => array(
-                                            '5.3' => false,
-                                            '5.4' => false,
-                                            '5.5' => false,
-                                            '5.6' => false,
-                                            '7.0' => true,
-                                            'alternative' => 'preg_match'
-                                        ),
-                                        'eregi_replace' => array(
-                                            '5.3' => false,
-                                            '5.4' => false,
-                                            '5.5' => false,
-                                            '5.6' => false,
-                                            '7.0' => true,
-                                            'alternative' => 'preg_replace'
-                                        ),
+//                                        'ereg' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => false,
+//                                            '5.5' => false,
+//                                            '5.6' => false,
+//                                            '7.0' => true,
+//                                            'alternative' => 'preg_match'
+//                                        ),
+//                                        'ereg_replace' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => false,
+//                                            '5.5' => false,
+//                                            '5.6' => false,
+//                                            '7.0' => true,
+//                                            'alternative' => 'preg_replace'
+//                                        ),
+//                                        'eregi' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => false,
+//                                            '5.5' => false,
+//                                            '5.6' => false,
+//                                            '7.0' => true,
+//                                            'alternative' => 'preg_match'
+//                                        ),
+//                                        'eregi_replace' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => false,
+//                                            '5.5' => false,
+//                                            '5.6' => false,
+//                                            '7.0' => true,
+//                                            'alternative' => 'preg_replace'
+//                                        ),
                                         'imagepsbbox' => array(
                                             '7.0' => true,
                                             'alternative' => null
@@ -254,22 +254,22 @@ class PHPCompatibility_Sniffs_PHP_DeprecatedFunctionsSniff extends PHPCompatibil
                                             '7.0' => true,
                                             'alternative' => 'stream_set_blocking'
                                         ),
-                                        'split' => array(
-                                            '5.3' => false,
-                                            '5.4' => false,
-                                            '5.5' => false,
-                                            '5.6' => false,
-                                            '7.0' => true,
-                                            'alternative' => 'preg_split'
-                                        ),
-                                        'spliti' => array(
-                                            '5.3' => false,
-                                            '5.4' => false,
-                                            '5.5' => false,
-                                            '5.6' => false,
-                                            '7.0' => true,
-                                            'alternative' => 'preg_split'
-                                        ),
+//                                        'split' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => false,
+//                                            '5.5' => false,
+//                                            '5.6' => false,
+//                                            '7.0' => true,
+//                                            'alternative' => 'preg_split'
+//                                        ),
+//                                        'spliti' => array(
+//                                            '5.3' => false,
+//                                            '5.4' => false,
+//                                            '5.5' => false,
+//                                            '5.6' => false,
+//                                            '7.0' => true,
+//                                            'alternative' => 'preg_split'
+//                                        ),
                                         'sql_regcase' => array(
                                             '5.3' => false,
                                             '5.4' => false,
